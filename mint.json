@@ -1,0 +1,21 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Dukanify Internship",
+  "theme": "prism",
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#6366f1",
+    "light": "#a5b4fc",
+    "dark": "#312e81"
+  },
+  "navigation": [
+    {
+      "group": "Weekly Logs",
+      "pages": [
+        "WEEK 1",
+        "WEEK 2",
+        "WEEK 3"
+      ]
+    }
+  ]
+}
