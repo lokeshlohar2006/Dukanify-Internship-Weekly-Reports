@@ -36,3 +36,23 @@
 
 - Using a multi-model PostgreSQL setup (relational + JSONB document + pgvector + relationship tables) offers a flexible and powerful way to handle dynamic, evolving business states within a single database system.
 
+## 18.06.2026
+### Tasks Completed:
+
+- Brainstormed ideas for a dynamic architecture.
+- Planned the introduction of a unified platform, Dukanify OS, to handle and orchestrate all tasks.
+
+### Key Learnings:
+
+- Designing a unified operating system platform (Dukanify OS) can help centralize workflow execution and improve orchestration reliability across dynamic tasks.
+
+## 19.06.2026
+### Tasks Completed:
+
+- Researched Neo4j graph database capabilities for managing relational and dynamic system architecture.
+- Presented findings on Neo4j implementation to the team.
+- Finalized the overall system architecture.
+
+### Key Learnings:
+
+- Neo4j is highly suited for modeling highly connected dynamic architecture relationships, enabling efficient query performance and data representation compared to standard relational models.
