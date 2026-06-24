@@ -20,3 +20,14 @@
 
 - Representing platform assets (websites, pages, sections, posts) as connected graph nodes allows for natural and performant traversal, which simplifies downstream asset invalidation.
 - Integrating structured AI output (via PydanticAI) directly with Neo4j facilitates reliable schema extraction from raw user responses.
+
+## 24.06.2026
+### Tasks Completed:
+
+- Integrated the `onboarding` and `website-builder` services within Dukanify OS to enable seamless generation flow from user profiling to web asset creation.
+- Tested and verified the integration endpoints and data flows using Postman and monitored graph updates directly in the Neo4j Browser.
+
+### Key Learnings:
+
+- Integrating multiple services through Dukanify OS orchestrator makes flow control centralized and easier to maintain.
+- Correlating API endpoints tested in Postman with real-time visual graphs in Neo4j Browser makes tracing data propagation and node state transitions highly efficient.
