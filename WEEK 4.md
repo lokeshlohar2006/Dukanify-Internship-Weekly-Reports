@@ -31,3 +31,15 @@
 
 - Integrating multiple services through Dukanify OS orchestrator makes flow control centralized and easier to maintain.
 - Correlating API endpoints tested in Postman with real-time visual graphs in Neo4j Browser makes tracing data propagation and node state transitions highly efficient.
+
+## 25.06.2026
+### Tasks Completed:
+
+- Deployed the `dukanify_os` service to the live production server (making it production-ready).
+- Configured and set up `PM2` process manager for the newly added service to manage process lifecycle and ensure automatic restarts on failure.
+- Configured `Nginx` as a reverse proxy to handle and route traffic to the `dukanify_os` service.
+
+### Key Learnings:
+
+- Using `PM2` simplifies application lifecycle management in a live environment, ensuring high availability and reliable crash recovery.
+- Implementing `Nginx` as a reverse proxy provides a secure, efficient layer for request routing, SSL termination, and caching for internal services.
