@@ -43,3 +43,14 @@
 
 - Using `PM2` simplifies application lifecycle management in a live environment, ensuring high availability and reliable crash recovery.
 - Implementing `Nginx` as a reverse proxy provides a secure, efficient layer for request routing, SSL termination, and caching for internal services.
+
+## 26.06.2026
+### Tasks Completed:
+
+- Standardized the API routes for both the onboarding and OS (`dukanify_os`) services to ensure a clean, consistent, and predictable routing structure.
+- Re-configured, optimized, and cleansed the `Nginx` configuration file on the production server, removing legacy configurations and organizing routing rules for better performance.
+
+### Key Learnings:
+
+- Standardizing routes across multiple microservices simplifies endpoint consumption and improves maintainability of the API architecture.
+- Regularly auditing and cleansing `Nginx` configurations reduces complexity, avoids routing conflicts, and ensures optimized traffic forwarding.
